@@ -35,7 +35,7 @@ class App extends Component {
 
     this.setState({
       todos: [...todos, newTodo],
-      inputL: ''
+      input: ''
     });
   }
 
